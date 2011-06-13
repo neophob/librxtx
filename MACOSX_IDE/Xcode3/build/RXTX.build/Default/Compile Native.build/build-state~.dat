@@ -1,0 +1,727 @@
+TCompile Native
+v7
+r0
+t325842043.730042
+cCheck dependencies
+cPhaseScriptExecution "Run javah" "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Script-89D0F1360F394748007831A7.sh"
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal i386 c com.apple.compilers.gcc.4_2
+cLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib" normal x86_64
+cLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib" normal i386
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal ppc c com.apple.compilers.gcc.4_2
+cLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib" normal ppc
+cCreateUniversalBinary /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib normal "x86_64 i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004C239DAB0000000000000AF4
+t1277402539
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOBSD.h
+c000000004C23994600000000000006C2
+t1277401414
+s1730
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004C23A0120000000000012048
+t1277403154
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/serial/IOSerialKeys.h
+c000000004C239B710000000000000B28
+t1277401969
+s2856
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004BBD2CC60000000000001533
+t1270688966
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
+c000000004BBD2CE900000000000016D3
+t1270689001
+s5843
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/grp.h
+c000000004BBD2CE90000000000001195
+t1270689001
+s4501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004C2399440000000000005414
+t1277401412
+s21524
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pwd.h
+c000000004BBD2CE90000000000001629
+t1270689001
+s5673
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/fcntl.h
+c000000004C23994600000000000042E3
+t1277401414
+s17123
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/file.h
+c000000004C2399460000000000001024
+t1277401414
+s4132
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/filio.h
+c000000004C2399460000000000001073
+t1277401414
+s4211
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004C239946000000000000116C
+t1277401414
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004C23994700000000000027BE
+t1277401415
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/signal.h
+c000000004C2399480000000000003DEB
+t1277401416
+s15851
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004C23994800000000000059BC
+t1277401416
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004C2399480000000000004A1D
+t1277401416
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004C2399480000000000001E17
+t1277401416
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/utsname.h
+c000000004C2399480000000000000F14
+t1277401416
+s3860
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/termios.h
+c000000004BBD2CE900000000000004D4
+t1270689001
+s1236
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004CD606A40000000000781330
+t1289094820
+s7869232
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004CD606F8000000000017B260
+t1289094904
+s1552992
+
+N/System/Library/Frameworks/JavaVM.framework/JavaVM
+c000000004D63075700000000000261F0
+t1298335575
+s156144
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/JavaNativeFoundation
+c000000004D3791A6000000000003A2A0
+t1295487398
+s238240
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c
+c000000004DBBBB2D00000000000297A0
+t1304148781
+s169888
+i"RXTXPort.h"
+i"config.h"
+i"gnu_io_RXTXPort.h"
+i<winsock.h>
+i<time.h>
+i<stdio.h>
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i<limits.h>
+i<sys/stat.h>
+i<unistd.h>
+i<sys/ioctl.h>
+i<sys/param.h>
+i<sys/utsname.h>
+i<pthread.h>
+i"win32termios.h"
+i<termios.h>
+i<signal.h>
+i<signal.h>
+i<sys/signal.h>
+i<sys/types.h>
+i<sys/time.h>
+i<fcntl.h>
+i<sys/fcntl.h>
+i<sys/file.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<linux/types.h>
+i<linux/serial.h>
+i<linux/version.h>
+i<sys/filio.h>
+i<sys/mkdev.h>
+i<sys/modem.h>
+i<CoreFoundation/CoreFoundation.h>
+i<IOKit/IOKitLib.h>
+i<IOKit/serial/IOSerialKeys.h>
+i<IOKit/IOBSD.h>
+i<sys/filio.h>
+i<pwd.h>
+i<grp.h>
+i<math.h>
+i<lockdev.h>
+i"SerialImp.h"
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c
+c000000004AA9D0440000000000002001
+t1252642884
+s8193
+i"CommPortIdentifier.h"
+i"gnu_io_CommPortIdentifier.h"
+i<stdio.h>
+i<string.h>
+i<dirent.h>
+i<pwd.h>
+i<signal.h>
+i<sys/stat.h>
+i<linux/major.h>
+i<unistd.h>
+i<sys/types.h>
+i<stdlib.h>
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib
+t1304149243
+s227208
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/SerialImp.o
+t1304149242
+s120792
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/fuserImp.o
+t1304149241
+s19272
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib
+t1304149242
+s66844
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/rxtxSerial.LinkFileList
+c000000004DBBBCF40000000000000103
+t1304149236
+s259
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/SerialImp.o
+t1304149243
+s136152
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/fuserImp.o
+t1304149243
+s19524
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib
+t1304149243
+s75656
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/rxtxSerial.LinkFileList
+c000000004DBBBCF40000000000000101
+t1304149236
+s257
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/SerialImp.o
+t1304149242
+s141440
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/fuserImp.o
+t1304149241
+s19792
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib
+t1304149242
+s77608
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/rxtxSerial.LinkFileList
+c000000004DBBBCF40000000000000107
+t1304149236
+s263
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Script-89D0F1360F394748007831A7.sh
+c000000004DBBBCF400000000000001C1
+t1304149236
+s449
+
+N/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/src/config.h
+c000000004C2CAA3B00000000000008CD
+t1277995579
+s2253
+
+N/Users/michu/code/rxtx/rxtx-devel/src/SerialImp.h
+c000000004AA9D5000000000000004215
+t1252644096
+s16917
+i"win32termios.h"
+
+N/Users/michu/code/rxtx/rxtx-devel/src/win32termios.h
+c000000004AAAB14F0000000000003835
+t1252700495
+s14389
+i<windows.h>
+i<sys/types.h>
+i<io.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325842036#325842036#0(0"0(0#1#0"8615647904#0"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal i386 c com.apple.compilers.gcc.4_2
+s325842041.146396
+e325842042.092999
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/i386/SerialImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c325842041#325842042#0(0"0(0#0#73"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c8615627104#1226"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/i386" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/SerialImp.o"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal i386 c com.apple.compilers.gcc.4_2
+s325842041.094155
+e325842041.146270
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/i386/fuserImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c325842041#325842041#0(0"0(0#0#72"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c8617567392#1224"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/i386" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/fuserImp.o"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal ppc c com.apple.compilers.gcc.4_2
+s325842042.555432
+e325842043.507144
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/SerialImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c325842042#325842043#0(0"0(0#0#73"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c8612303072#1233"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/ppc" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/SerialImp.o"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal ppc c com.apple.compilers.gcc.4_2
+s325842042.549736
+e325842043.057756
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/fuserImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c325842042#325842043#0(0"0(0#0#72"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c8612688960#1231"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/ppc" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/fuserImp.o"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/SerialImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c normal x86_64 c com.apple.compilers.gcc.4_2
+s325842040.361015
+e325842042.049870
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/SerialImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c325842040#325842042#0(0"0(0#0#73"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c8615447392#1232"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/x86_64" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/SerialImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/SerialImp.o"0#
+
+CCompileC "build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/fuserImp.o" /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c normal x86_64 c com.apple.compilers.gcc.4_2
+s325842040.357490
+e325842041.094043
+r1
+xCompileC
+xbuild/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/fuserImp.o
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c325842040#325842041#0(0"0(0#0#72"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c8615584928#1230"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial.hmap" -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/x86_64" "-I/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources" -c /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/../../src/fuserImp.c -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/fuserImp.o"0#
+
+CCreateUniversalBinary /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib normal "x86_64 i386 ppc"
+s325842043.693120
+e325842043.729995
+r1
+xCreateUniversalBinary
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@81"CreateUniversalBinary build/Default/librxtxSerial.jnilib normal "x86_64 i386 ppc"325842043#325842043#0(0"0(0#0#67"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/x86_64 i386 ppc8615496576#604"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    /usr/bin/lipo -create "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib" "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib" "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib" -output /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib0#
+
+CLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib" normal i386
+s325842042.093139
+e325842042.549620
+r1
+xLd
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib
+xnormal
+xi386
+lSLF07#2@143"Link /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib325842042#325842042#0(0"0(0#0#0"8613070368#955"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -filelist "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/rxtxSerial.LinkFileList" -install_name /usr/local/lib/librxtxSerial.jnilib -mmacosx-version-min=10.6 -framework JavaNativeFoundation -framework JavaVM -framework CoreFoundation -framework IOKit -single_module -compatibility_version 1 -current_version 1 -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/librxtxSerial.jnilib"0#
+
+CLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib" normal ppc
+s325842043.507260
+e325842043.692922
+r1
+xLd
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib
+xnormal
+xppc
+lSLF07#2@142"Link /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib325842043#325842043#0(0"0(0#0#0"8617697408#952"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -filelist "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/rxtxSerial.LinkFileList" -install_name /usr/local/lib/librxtxSerial.jnilib -mmacosx-version-min=10.6 -framework JavaNativeFoundation -framework JavaVM -framework CoreFoundation -framework IOKit -single_module -compatibility_version 1 -current_version 1 -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/librxtxSerial.jnilib"0#
+
+CLd "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib" normal x86_64
+s325842042.050055
+e325842042.555314
+r1
+xLd
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib
+xnormal
+xx86_64
+lSLF07#2@145"Link /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib325842042#325842042#0(0"0(0#0#0"8610306944#961"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -filelist "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/rxtxSerial.LinkFileList" -install_name /usr/local/lib/librxtxSerial.jnilib -mmacosx-version-min=10.6 -framework JavaNativeFoundation -framework JavaVM -framework CoreFoundation -framework IOKit -single_module -compatibility_version 1 -current_version 1 -o "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/librxtxSerial.jnilib"0#
+
+CPhaseScriptExecution "Run javah" "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Script-89D0F1360F394748007831A7.sh"
+s325842036.498763
+e325842040.357326
+r1
+xPhaseScriptExecution
+xRun javah
+x/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Script-89D0F1360F394748007831A7.sh
+o[ Search Path: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar//Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar ]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommDriver.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortEnumerator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortIdentifier.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortOwnershipListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__1.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__2.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__3.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__4.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_MonitorThread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2CInputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2COutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEventListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_MonitorThread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelInputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelOutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_NoSuchPortException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEventListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_PortInUseException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_MonitorThread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485InputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485OutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485Port.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEventListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXCommDriver.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_MonitorThread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialInputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialOutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXVersion.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_MonitorThread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawInputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawOutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEventListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPort.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEventListener.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnSupportedLoggerException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnsupportedCommOperationException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Zystem.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_BorderLayout.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button_AccessibleAWTButton.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox_AccessibleAWTCheckbox.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame_AccessibleAWTFrame.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_GridLayout.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label_AccessibleAWTLabel.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel_AccessibleAWTPanel.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea_AccessibleAWTTextArea.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField_AccessibleAWTTextField.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_ActionEvent.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_WindowAdapter.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_IOException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_InputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_OutputStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_PrintStream.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_RandomAccessFile.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_MethodArray.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_EnclosingMethodInfo.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Exception.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IllegalArgumentException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IndexOutOfBoundsException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer_IntegerCache.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Math.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_NullPointerException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Object.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Runtime.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String_CaseInsensitiveComparator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_StringBuffer.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_System.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_UncaughtExceptionHandler.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_State.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_EventObject.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntrySet.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Values.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeySet.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntryIterator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeyIterator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_ValueIterator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_HashIterator.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Entry.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_TooManyListenersException.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_Vector.h]
+o[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_logging_Logger.h]
+o[search path for source files: /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar]
+o[search path for class files: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar,/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar,/System/Library/Java/Extensions/AppleScriptEngine.jar,/System/Library/Java/Extensions/dns_sd.jar,/System/Library/Java/Extensions/j3daudio.jar,/System/Library/Java/Extensions/j3dcore.jar,/System/Library/Java/Extensions/j3dutils.jar,/System/Library/Java/Extensions/jai_codec.jar,/System/Library/Java/Extensions/jai_core.jar,/System/Library/Java/Extensions/mlibwrapper_jai.jar,/System/Library/Java/Extensions/MRJToolkit.jar,/System/Library/Java/Extensions/QTJava.zip,/System/Library/Java/Extensions/vecmath.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar,/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar]
+o[loading gnu/io/CommDriver.class(gnu/io:CommDriver.class)]
+o[loading gnu/io/CommPort.class(gnu/io:CommPort.class)]
+o[loading gnu/io/CommPortEnumerator.class(gnu/io:CommPortEnumerator.class)]
+o[loading gnu/io/CommPortIdentifier.class(gnu/io:CommPortIdentifier.class)]
+o[loading gnu/io/CommPortOwnershipListener.class(gnu/io:CommPortOwnershipListener.class)]
+o[loading gnu/io/Configure.class(gnu/io:Configure.class)]
+o[loading gnu/io/Configure$1.class(gnu/io:Configure$1.class)]
+o[loading gnu/io/Configure$2.class(gnu/io:Configure$2.class)]
+o[loading gnu/io/Configure$3.class(gnu/io:Configure$3.class)]
+o[loading gnu/io/Configure$4.class(gnu/io:Configure$4.class)]
+o[loading gnu/io/I2C.class(gnu/io:I2C.class)]
+o[loading gnu/io/I2C$I2CInputStream.class(gnu/io:I2C$I2CInputStream.class)]
+o[loading gnu/io/I2C$I2COutputStream.class(gnu/io:I2C$I2COutputStream.class)]
+o[loading gnu/io/I2C$MonitorThread.class(gnu/io:I2C$MonitorThread.class)]
+o[loading gnu/io/I2CPort.class(gnu/io:I2CPort.class)]
+o[loading gnu/io/I2CPortEvent.class(gnu/io:I2CPortEvent.class)]
+o[loading gnu/io/I2CPortEventListener.class(gnu/io:I2CPortEventListener.class)]
+o[loading gnu/io/LPRPort.class(gnu/io:LPRPort.class)]
+o[loading gnu/io/LPRPort$MonitorThread.class(gnu/io:LPRPort$MonitorThread.class)]
+o[loading gnu/io/LPRPort$ParallelInputStream.class(gnu/io:LPRPort$ParallelInputStream.class)]
+o[loading gnu/io/LPRPort$ParallelOutputStream.class(gnu/io:LPRPort$ParallelOutputStream.class)]
+o[loading gnu/io/NoSuchPortException.class(gnu/io:NoSuchPortException.class)]
+o[loading gnu/io/ParallelPort.class(gnu/io:ParallelPort.class)]
+o[loading gnu/io/ParallelPortEvent.class(gnu/io:ParallelPortEvent.class)]
+o[loading gnu/io/ParallelPortEventListener.class(gnu/io:ParallelPortEventListener.class)]
+o[loading gnu/io/PortInUseException.class(gnu/io:PortInUseException.class)]
+o[loading gnu/io/RS485.class(gnu/io:RS485.class)]
+o[loading gnu/io/RS485$MonitorThread.class(gnu/io:RS485$MonitorThread.class)]
+o[loading gnu/io/RS485$RS485InputStream.class(gnu/io:RS485$RS485InputStream.class)]
+o[loading gnu/io/RS485$RS485OutputStream.class(gnu/io:RS485$RS485OutputStream.class)]
+o[loading gnu/io/RS485Port.class(gnu/io:RS485Port.class)]
+o[loading gnu/io/RS485PortEvent.class(gnu/io:RS485PortEvent.class)]
+o[loading gnu/io/RS485PortEventListener.class(gnu/io:RS485PortEventListener.class)]
+o[loading gnu/io/RXTXCommDriver.class(gnu/io:RXTXCommDriver.class)]
+o[loading gnu/io/RXTXPort.class(gnu/io:RXTXPort.class)]
+o[loading gnu/io/RXTXPort$MonitorThread.class(gnu/io:RXTXPort$MonitorThread.class)]
+o[loading gnu/io/RXTXPort$SerialInputStream.class(gnu/io:RXTXPort$SerialInputStream.class)]
+o[loading gnu/io/RXTXPort$SerialOutputStream.class(gnu/io:RXTXPort$SerialOutputStream.class)]
+o[loading gnu/io/RXTXVersion.class(gnu/io:RXTXVersion.class)]
+o[loading gnu/io/Raw.class(gnu/io:Raw.class)]
+o[loading gnu/io/Raw$MonitorThread.class(gnu/io:Raw$MonitorThread.class)]
+o[loading gnu/io/Raw$RawInputStream.class(gnu/io:Raw$RawInputStream.class)]
+o[loading gnu/io/Raw$RawOutputStream.class(gnu/io:Raw$RawOutputStream.class)]
+o[loading gnu/io/RawPort.class(gnu/io:RawPort.class)]
+o[loading gnu/io/RawPortEvent.class(gnu/io:RawPortEvent.class)]
+o[loading gnu/io/RawPortEventListener.class(gnu/io:RawPortEventListener.class)]
+o[loading gnu/io/SerialPort.class(gnu/io:SerialPort.class)]
+o[loading gnu/io/SerialPortEvent.class(gnu/io:SerialPortEvent.class)]
+o[loading gnu/io/SerialPortEventListener.class(gnu/io:SerialPortEventListener.class)]
+o[loading gnu/io/UnSupportedLoggerException.class(gnu/io:UnSupportedLoggerException.class)]
+o[loading gnu/io/UnsupportedCommOperationException.class(gnu/io:UnsupportedCommOperationException.class)]
+o[loading gnu/io/Zystem.class(gnu/io:Zystem.class)]
+o[loading java/awt/BorderLayout.class(java/awt:BorderLayout.class)]
+o[loading java/awt/Button.class(java/awt:Button.class)]
+o[loading java/awt/Checkbox.class(java/awt:Checkbox.class)]
+o[loading java/awt/Frame.class(java/awt:Frame.class)]
+o[loading java/awt/GridLayout.class(java/awt:GridLayout.class)]
+o[loading java/awt/Label.class(java/awt:Label.class)]
+o[loading java/awt/Panel.class(java/awt:Panel.class)]
+o[loading java/awt/TextArea.class(java/awt:TextArea.class)]
+o[loading java/awt/TextField.class(java/awt:TextField.class)]
+o[loading java/awt/event/ActionEvent.class(java/awt/event:ActionEvent.class)]
+o[loading java/awt/event/WindowAdapter.class(java/awt/event:WindowAdapter.class)]
+o[loading java/io/IOException.class(java/io:IOException.class)]
+o[loading java/io/InputStream.class(java/io:InputStream.class)]
+o[loading java/io/OutputStream.class(java/io:OutputStream.class)]
+o[loading java/io/PrintStream.class(java/io:PrintStream.class)]
+o[loading java/io/RandomAccessFile.class(java/io:RandomAccessFile.class)]
+o[loading java/lang/Class.class(java/lang:Class.class)]
+o[loading java/lang/Exception.class(java/lang:Exception.class)]
+o[loading java/lang/IllegalArgumentException.class(java/lang:IllegalArgumentException.class)]
+o[loading java/lang/IndexOutOfBoundsException.class(java/lang:IndexOutOfBoundsException.class)]
+o[loading java/lang/Integer.class(java/lang:Integer.class)]
+o[loading java/lang/Math.class(java/lang:Math.class)]
+o[loading java/lang/NullPointerException.class(java/lang:NullPointerException.class)]
+o[loading java/lang/Object.class(java/lang:Object.class)]
+o[loading java/lang/Runtime.class(java/lang:Runtime.class)]
+o[loading java/lang/String.class(java/lang:String.class)]
+o[loading java/lang/StringBuffer.class(java/lang:StringBuffer.class)]
+o[loading java/lang/System.class(java/lang:System.class)]
+o[loading java/lang/Thread.class(java/lang:Thread.class)]
+o[loading java/util/EventObject.class(java/util:EventObject.class)]
+o[loading java/util/HashMap.class(java/util:HashMap.class)]
+o[loading java/util/TooManyListenersException.class(java/util:TooManyListenersException.class)]
+o[loading java/util/Vector.class(java/util:Vector.class)]
+o[loading java/util/logging/Logger.class(java/util/logging:Logger.class)]
+o[loading java/awt/Button$AccessibleAWTButton.class(java/awt:Button$AccessibleAWTButton.class)]
+o[loading java/awt/Checkbox$AccessibleAWTCheckbox.class(java/awt:Checkbox$AccessibleAWTCheckbox.class)]
+o[loading java/awt/Frame$AccessibleAWTFrame.class(java/awt:Frame$AccessibleAWTFrame.class)]
+o[loading java/awt/Label$AccessibleAWTLabel.class(java/awt:Label$AccessibleAWTLabel.class)]
+o[loading java/awt/Panel$AccessibleAWTPanel.class(java/awt:Panel$AccessibleAWTPanel.class)]
+o[loading java/awt/TextArea$AccessibleAWTTextArea.class(java/awt:TextArea$AccessibleAWTTextArea.class)]
+o[loading java/awt/TextField$AccessibleAWTTextField.class(java/awt:TextField$AccessibleAWTTextField.class)]
+o[loading java/lang/Class$EnclosingMethodInfo.class(java/lang:Class$EnclosingMethodInfo.class)]
+o[loading java/lang/Class$MethodArray.class(java/lang:Class$MethodArray.class)]
+o[loading java/lang/Integer$IntegerCache.class(java/lang:Integer$IntegerCache.class)]
+o[loading java/lang/String$CaseInsensitiveComparator.class(java/lang:String$CaseInsensitiveComparator.class)]
+o[loading java/lang/Thread$State.class(java/lang:Thread$State.class)]
+o[loading java/lang/Thread$UncaughtExceptionHandler.class(java/lang:Thread$UncaughtExceptionHandler.class)]
+o[loading java/util/HashMap$Entry.class(java/util:HashMap$Entry.class)]
+o[loading java/util/HashMap$HashIterator.class(java/util:HashMap$HashIterator.class)]
+o[loading java/util/HashMap$ValueIterator.class(java/util:HashMap$ValueIterator.class)]
+o[loading java/util/HashMap$KeyIterator.class(java/util:HashMap$KeyIterator.class)]
+o[loading java/util/HashMap$EntryIterator.class(java/util:HashMap$EntryIterator.class)]
+o[loading java/util/HashMap$KeySet.class(java/util:HashMap$KeySet.class)]
+o[loading java/util/HashMap$Values.class(java/util:HashMap$Values.class)]
+o[loading java/util/HashMap$EntrySet.class(java/util:HashMap$EntrySet.class)]
+o[loading java/lang/Throwable.class(java/lang:Throwable.class)]
+o[loading java/awt/Window.class(java/awt:Window.class)]
+o[loading java/awt/Container.class(java/awt:Container.class)]
+o[loading java/awt/Component.class(java/awt:Component.class)]
+o[loading java/awt/Component$AccessibleAWTComponent.class(java/awt:Component$AccessibleAWTComponent.class)]
+o[loading javax/accessibility/AccessibleContext.class(javax/accessibility:AccessibleContext.class)]
+o[loading java/awt/Window$AccessibleAWTWindow.class(java/awt:Window$AccessibleAWTWindow.class)]
+o[loading java/awt/Container$AccessibleAWTContainer.class(java/awt:Container$AccessibleAWTContainer.class)]
+o[loading java/awt/TextComponent.class(java/awt:TextComponent.class)]
+o[loading java/awt/TextComponent$AccessibleAWTTextComponent.class(java/awt:TextComponent$AccessibleAWTTextComponent.class)]
+o[loading java/awt/AWTEvent.class(java/awt:AWTEvent.class)]
+o[loading java/io/FilterOutputStream.class(java/io:FilterOutputStream.class)]
+o[loading java/lang/ClassLoader.class(java/lang:ClassLoader.class)]
+o[loading java/security/ProtectionDomain.class(java/security:ProtectionDomain.class)]
+o[loading sun/reflect/ConstantPool.class(sun/reflect:ConstantPool.class)]
+o[loading java/lang/reflect/Field.class(java/lang/reflect:Field.class)]
+o[loading java/lang/reflect/Method.class(java/lang/reflect:Method.class)]
+o[loading java/lang/reflect/Constructor.class(java/lang/reflect:Constructor.class)]
+o[loading java/lang/RuntimeException.class(java/lang:RuntimeException.class)]
+o[loading java/lang/Number.class(java/lang:Number.class)]
+o[loading java/lang/AbstractStringBuilder.class(java/lang:AbstractStringBuilder.class)]
+o[loading java/util/Properties.class(java/util:Properties.class)]
+o[loading java/util/Hashtable.class(java/util:Hashtable.class)]
+o[loading java/util/Dictionary.class(java/util:Dictionary.class)]
+o[loading java/lang/StackTraceElement.class(java/lang:StackTraceElement.class)]
+o[loading java/lang/Enum.class(java/lang:Enum.class)]
+o[loading java/util/AbstractMap.class(java/util:AbstractMap.class)]
+o[loading java/util/AbstractSet.class(java/util:AbstractSet.class)]
+o[loading java/util/AbstractCollection.class(java/util:AbstractCollection.class)]
+o[loading java/util/AbstractList.class(java/util:AbstractList.class)]
+o[done in 1400 ms]
+lSLF07#2@35"Run custom shell script 'Run javah'325842036#325842040#0(29488"[ Search Path: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar//Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar ][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommDriver.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortEnumerator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortIdentifier.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortOwnershipListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__1.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__2.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__3.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__4.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_MonitorThread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2CInputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2COutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEventListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_MonitorThread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelInputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelOutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_NoSuchPortException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEventListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_PortInUseException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_MonitorThread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485InputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485OutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485Port.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEventListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXCommDriver.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_MonitorThread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialInputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialOutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXVersion.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_MonitorThread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawInputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawOutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEventListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPort.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEventListener.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnSupportedLoggerException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnsupportedCommOperationException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Zystem.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_BorderLayout.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button_AccessibleAWTButton.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox_AccessibleAWTCheckbox.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame_AccessibleAWTFrame.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_GridLayout.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label_AccessibleAWTLabel.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel_AccessibleAWTPanel.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea_AccessibleAWTTextArea.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField_AccessibleAWTTextField.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_ActionEvent.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_WindowAdapter.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_IOException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_InputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_OutputStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_PrintStream.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_RandomAccessFile.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_MethodArray.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_EnclosingMethodInfo.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Exception.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IllegalArgumentException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IndexOutOfBoundsException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer_IntegerCache.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Math.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_NullPointerException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Object.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Runtime.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String_CaseInsensitiveComparator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_StringBuffer.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_System.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_UncaughtExceptionHandler.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_State.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_EventObject.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntrySet.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Values.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeySet.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntryIterator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeyIterator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_ValueIterator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_HashIterator.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Entry.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_TooManyListenersException.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_Vector.h][Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_logging_Logger.h][search path for source files: /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar][search path for class files: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar,/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar,/System/Library/Java/Extensions/AppleScriptEngine.jar,/System/Library/Java/Extensions/dns_sd.jar,/System/Library/Java/Extensions/j3daudio.jar,/System/Library/Java/Extensions/j3dcore.jar,/System/Library/Java/Extensions/j3dutils.jar,/System/Library/Java/Extensions/jai_codec.jar,/System/Library/Java/Extensions/jai_core.jar,/System/Library/Java/Extensions/mlibwrapper_jai.jar,/System/Library/Java/Extensions/MRJToolkit.jar,/System/Library/Java/Extensions/QTJava.zip,/System/Library/Java/Extensions/vecmath.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar,/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar][loading gnu/io/CommDriver.class(gnu/io:CommDriver.class)][loading gnu/io/CommPort.class(gnu/io:CommPort.class)][loading gnu/io/CommPortEnumerator.class(gnu/io:CommPortEnumerator.class)][loading gnu/io/CommPortIdentifier.class(gnu/io:CommPortIdentifier.class)][loading gnu/io/CommPortOwnershipListener.class(gnu/io:CommPortOwnershipListener.class)][loading gnu/io/Configure.class(gnu/io:Configure.class)][loading gnu/io/Configure$1.class(gnu/io:Configure$1.class)][loading gnu/io/Configure$2.class(gnu/io:Configure$2.class)][loading gnu/io/Configure$3.class(gnu/io:Configure$3.class)][loading gnu/io/Configure$4.class(gnu/io:Configure$4.class)][loading gnu/io/I2C.class(gnu/io:I2C.class)][loading gnu/io/I2C$I2CInputStream.class(gnu/io:I2C$I2CInputStream.class)][loading gnu/io/I2C$I2COutputStream.class(gnu/io:I2C$I2COutputStream.class)][loading gnu/io/I2C$MonitorThread.class(gnu/io:I2C$MonitorThread.class)][loading gnu/io/I2CPort.class(gnu/io:I2CPort.class)][loading gnu/io/I2CPortEvent.class(gnu/io:I2CPortEvent.class)][loading gnu/io/I2CPortEventListener.class(gnu/io:I2CPortEventListener.class)][loading gnu/io/LPRPort.class(gnu/io:LPRPort.class)][loading gnu/io/LPRPort$MonitorThread.class(gnu/io:LPRPort$MonitorThread.class)][loading gnu/io/LPRPort$ParallelInputStream.class(gnu/io:LPRPort$ParallelInputStream.class)][loading gnu/io/LPRPort$ParallelOutputStream.class(gnu/io:LPRPort$ParallelOutputStream.class)][loading gnu/io/NoSuchPortException.class(gnu/io:NoSuchPortException.class)][loading gnu/io/ParallelPort.class(gnu/io:ParallelPort.class)][loading gnu/io/ParallelPortEvent.class(gnu/io:ParallelPortEvent.class)][loading gnu/io/ParallelPortEventListener.class(gnu/io:ParallelPortEventListener.class)][loading gnu/io/PortInUseException.class(gnu/io:PortInUseException.class)][loading gnu/io/RS485.class(gnu/io:RS485.class)][loading gnu/io/RS485$MonitorThread.class(gnu/io:RS485$MonitorThread.class)][loading gnu/io/RS485$RS485InputStream.class(gnu/io:RS485$RS485InputStream.class)][loading gnu/io/RS485$RS485OutputStream.class(gnu/io:RS485$RS485OutputStream.class)][loading gnu/io/RS485Port.class(gnu/io:RS485Port.class)][loading gnu/io/RS485PortEvent.class(gnu/io:RS485PortEvent.class)][loading gnu/io/RS485PortEventListener.class(gnu/io:RS485PortEventListener.class)][loading gnu/io/RXTXCommDriver.class(gnu/io:RXTXCommDriver.class)][loading gnu/io/RXTXPort.class(gnu/io:RXTXPort.class)][loading gnu/io/RXTXPort$MonitorThread.class(gnu/io:RXTXPort$MonitorThread.class)][loading gnu/io/RXTXPort$SerialInputStream.class(gnu/io:RXTXPort$SerialInputStream.class)][loading gnu/io/RXTXPort$SerialOutputStream.class(gnu/io:RXTXPort$SerialOutputStream.class)][loading gnu/io/RXTXVersion.class(gnu/io:RXTXVersion.class)][loading gnu/io/Raw.class(gnu/io:Raw.class)][loading gnu/io/Raw$MonitorThread.class(gnu/io:Raw$MonitorThread.class)][loading gnu/io/Raw$RawInputStream.class(gnu/io:Raw$RawInputStream.class)][loading gnu/io/Raw$RawOutputStream.class(gnu/io:Raw$RawOutputStream.class)][loading gnu/io/RawPort.class(gnu/io:RawPort.class)][loading gnu/io/RawPortEvent.class(gnu/io:RawPortEvent.class)][loading gnu/io/RawPortEventListener.class(gnu/io:RawPortEventListener.class)][loading gnu/io/SerialPort.class(gnu/io:SerialPort.class)][loading gnu/io/SerialPortEvent.class(gnu/io:SerialPortEvent.class)][loading gnu/io/SerialPortEventListener.class(gnu/io:SerialPortEventListener.class)][loading gnu/io/UnSupportedLoggerException.class(gnu/io:UnSupportedLoggerException.class)][loading gnu/io/UnsupportedCommOperationException.class(gnu/io:UnsupportedCommOperationException.class)][loading gnu/io/Zystem.class(gnu/io:Zystem.class)][loading java/awt/BorderLayout.class(java/awt:BorderLayout.class)][loading java/awt/Button.class(java/awt:Button.class)][loading java/awt/Checkbox.class(java/awt:Checkbox.class)][loading java/awt/Frame.class(java/awt:Frame.class)][loading java/awt/GridLayout.class(java/awt:GridLayout.class)][loading java/awt/Label.class(java/awt:Label.class)][loading java/awt/Panel.class(java/awt:Panel.class)][loading java/awt/TextArea.class(java/awt:TextArea.class)][loading java/awt/TextField.class(java/awt:TextField.class)][loading java/awt/event/ActionEvent.class(java/awt/event:ActionEvent.class)][loading java/awt/event/WindowAdapter.class(java/awt/event:WindowAdapter.class)][loading java/io/IOException.class(java/io:IOException.class)][loading java/io/InputStream.class(java/io:InputStream.class)][loading java/io/OutputStream.class(java/io:OutputStream.class)][loading java/io/PrintStream.class(java/io:PrintStream.class)][loading java/io/RandomAccessFile.class(java/io:RandomAccessFile.class)][loading java/lang/Class.class(java/lang:Class.class)][loading java/lang/Exception.class(java/lang:Exception.class)][loading java/lang/IllegalArgumentException.class(java/lang:IllegalArgumentException.class)][loading java/lang/IndexOutOfBoundsException.class(java/lang:IndexOutOfBoundsException.class)][loading java/lang/Integer.class(java/lang:Integer.class)][loading java/lang/Math.class(java/lang:Math.class)][loading java/lang/NullPointerException.class(java/lang:NullPointerException.class)][loading java/lang/Object.class(java/lang:Object.class)][loading java/lang/Runtime.class(java/lang:Runtime.class)][loading java/lang/String.class(java/lang:String.class)][loading java/lang/StringBuffer.class(java/lang:StringBuffer.class)][loading java/lang/System.class(java/lang:System.class)][loading java/lang/Thread.class(java/lang:Thread.class)][loading java/util/EventObject.class(java/util:EventObject.class)][loading java/util/HashMap.class(java/util:HashMap.class)][loading java/util/TooManyListenersException.class(java/util:TooManyListenersException.class)][loading java/util/Vector.class(java/util:Vector.class)][loading java/util/logging/Logger.class(java/util/logging:Logger.class)][loading java/awt/Button$AccessibleAWTButton.class(java/awt:Button$AccessibleAWTButton.class)][loading java/awt/Checkbox$AccessibleAWTCheckbox.class(java/awt:Checkbox$AccessibleAWTCheckbox.class)][loading java/awt/Frame$AccessibleAWTFrame.class(java/awt:Frame$AccessibleAWTFrame.class)][loading java/awt/Label$AccessibleAWTLabel.class(java/awt:Label$AccessibleAWTLabel.class)][loading java/awt/Panel$AccessibleAWTPanel.class(java/awt:Panel$AccessibleAWTPanel.class)][loading java/awt/TextArea$AccessibleAWTTextArea.class(java/awt:TextArea$AccessibleAWTTextArea.class)][loading java/awt/TextField$AccessibleAWTTextField.class(java/awt:TextField$AccessibleAWTTextField.class)][loading java/lang/Class$EnclosingMethodInfo.class(java/lang:Class$EnclosingMethodInfo.class)][loading java/lang/Class$MethodArray.class(java/lang:Class$MethodArray.class)][loading java/lang/Integer$IntegerCache.class(java/lang:Integer$IntegerCache.class)][loading java/lang/String$CaseInsensitiveComparator.class(java/lang:String$CaseInsensitiveComparator.class)][loading java/lang/Thread$State.class(java/lang:Thread$State.class)][loading java/lang/Thread$UncaughtExceptionHandler.class(java/lang:Thread$UncaughtExceptionHandler.class)][loading java/util/HashMap$Entry.class(java/util:HashMap$Entry.class)][loading java/util/HashMap$HashIterator.class(java/util:HashMap$HashIterator.class)][loading java/util/HashMap$ValueIterator.class(java/util:HashMap$ValueIterator.class)][loading java/util/HashMap$KeyIterator.class(java/util:HashMap$KeyIterator.class)][loading java/util/HashMap$EntryIterator.class(java/util:HashMap$EntryIterator.class)][loading java/util/HashMap$KeySet.class(java/util:HashMap$KeySet.class)][loading java/util/HashMap$Values.class(java/util:HashMap$Values.class)][loading java/util/HashMap$EntrySet.class(java/util:HashMap$EntrySet.class)][loading java/lang/Throwable.class(java/lang:Throwable.class)][loading java/awt/Window.class(java/awt:Window.class)][loading java/awt/Container.class(java/awt:Container.class)][loading java/awt/Component.class(java/awt:Component.class)][loading java/awt/Component$AccessibleAWTComponent.class(java/awt:Component$AccessibleAWTComponent.class)][loading javax/accessibility/AccessibleContext.class(javax/accessibility:AccessibleContext.class)][loading java/awt/Window$AccessibleAWTWindow.class(java/awt:Window$AccessibleAWTWindow.class)][loading java/awt/Container$AccessibleAWTContainer.class(java/awt:Container$AccessibleAWTContainer.class)][loading java/awt/TextComponent.class(java/awt:TextComponent.class)][loading java/awt/TextComponent$AccessibleAWTTextComponent.class(java/awt:TextComponent$AccessibleAWTTextComponent.class)][loading java/awt/AWTEvent.class(java/awt:AWTEvent.class)][loading java/io/FilterOutputStream.class(java/io:FilterOutputStream.class)][loading java/lang/ClassLoader.class(java/lang:ClassLoader.class)][loading java/security/ProtectionDomain.class(java/security:ProtectionDomain.class)][loading sun/reflect/ConstantPool.class(sun/reflect:ConstantPool.class)][loading java/lang/reflect/Field.class(java/lang/reflect:Field.class)][loading java/lang/reflect/Method.class(java/lang/reflect:Method.class)][loading java/lang/reflect/Constructor.class(java/lang/reflect:Constructor.class)][loading java/lang/RuntimeException.class(java/lang:RuntimeException.class)][loading java/lang/Number.class(java/lang:Number.class)][loading java/lang/AbstractStringBuilder.class(java/lang:AbstractStringBuilder.class)][loading java/util/Properties.class(java/util:Properties.class)][loading java/util/Hashtable.class(java/util:Hashtable.class)][loading java/util/Dictionary.class(java/util:Dictionary.class)][loading java/lang/StackTraceElement.class(java/lang:StackTraceElement.class)][loading java/lang/Enum.class(java/lang:Enum.class)][loading java/util/AbstractMap.class(java/util:AbstractMap.class)][loading java/util/AbstractSet.class(java/util:AbstractSet.class)][loading java/util/AbstractCollection.class(java/util:AbstractCollection.class)][loading java/util/AbstractList.class(java/util:AbstractList.class)][done in 1400 ms]248(13@843"[ Search Path: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar//Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar ]325842039#0#843#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommDriver.h]325842039#843#149#0(1@0"0(13@147"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPort.h]325842039#992#147#0(1@0"0(13@157"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortEnumerator.h]325842039#1139#157#0(1@0"0(13@157"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortIdentifier.h]325842039#1296#157#0(1@0"0(13@164"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_CommPortOwnershipListener.h]325842039#1453#164#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure.h]325842039#1617#148#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__1.h]325842039#1765#151#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__2.h]325842039#1916#151#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__3.h]325842039#2067#151#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Configure__4.h]325842039#2218#151#0(1@0"0(13@142"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C.h]325842039#2369#142#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_MonitorThread.h]325842039#2511#156#0(1@0"0(13@157"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2CInputStream.h]325842039#2667#157#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2C_I2COutputStream.h]325842039#2824#158#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPort.h]325842039#2982#146#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEvent.h]325842039#3128#151#0(1@0"0(13@159"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_I2CPortEventListener.h]325842039#3279#159#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort.h]325842039#3438#146#0(1@0"0(13@160"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_MonitorThread.h]325842039#3584#160#0(1@0"0(13@166"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelInputStream.h]325842039#3744#166#0(1@0"0(13@167"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_LPRPort_ParallelOutputStream.h]325842039#3910#167#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_NoSuchPortException.h]325842039#4077#158#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPort.h]325842039#4235#151#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEvent.h]325842039#4386#156#0(1@0"0(13@164"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_ParallelPortEventListener.h]325842039#4542#164#0(1@0"0(13@157"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_PortInUseException.h]325842039#4706#157#0(1@0"0(13@144"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485.h]325842039#4863#144#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_MonitorThread.h]325842039#5007#158#0(1@0"0(13@161"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485InputStream.h]325842039#5165#161#0(1@0"0(13@162"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485_RS485OutputStream.h]325842039#5326#162#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485Port.h]325842039#5488#148#0(1@0"0(13@153"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEvent.h]325842039#5636#153#0(1@0"0(13@161"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RS485PortEventListener.h]325842039#5789#161#0(1@0"0(13@153"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXCommDriver.h]325842039#5950#153#0(1@0"0(13@147"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort.h]325842040#6103#147#0(1@0"0(13@161"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_MonitorThread.h]325842040#6250#161#0(1@0"0(13@165"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialInputStream.h]325842040#6411#165#0(1@0"0(13@166"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXPort_SerialOutputStream.h]325842040#6576#166#0(1@0"0(13@150"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RXTXVersion.h]325842040#6742#150#0(1@0"0(13@142"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw.h]325842040#6892#142#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_MonitorThread.h]325842040#7034#156#0(1@0"0(13@157"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawInputStream.h]325842040#7190#157#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Raw_RawOutputStream.h]325842040#7347#158#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPort.h]325842040#7505#146#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEvent.h]325842040#7651#151#0(1@0"0(13@159"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_RawPortEventListener.h]325842040#7802#159#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPort.h]325842040#7961#149#0(1@0"0(13@154"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEvent.h]325842040#8110#154#0(1@0"0(13@162"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_SerialPortEventListener.h]325842040#8264#162#0(1@0"0(13@165"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnSupportedLoggerException.h]325842040#8426#165#0(1@0"0(13@172"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_UnsupportedCommOperationException.h]325842040#8591#172#0(1@0"0(13@145"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/gnu_io_Zystem.h]325842040#8763#145#0(1@0"0(13@153"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_BorderLayout.h]325842040#8908#153#0(1@0"0(13@147"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button.h]325842040#9061#147#0(1@0"0(13@167"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Button_AccessibleAWTButton.h]325842040#9208#167#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox.h]325842040#9375#149#0(1@0"0(13@171"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Checkbox_AccessibleAWTCheckbox.h]325842040#9524#171#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame.h]325842040#9695#146#0(1@0"0(13@165"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Frame_AccessibleAWTFrame.h]325842040#9841#165#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_GridLayout.h]325842040#10006#151#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label.h]325842040#10157#146#0(1@0"0(13@165"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Label_AccessibleAWTLabel.h]325842040#10303#165#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel.h]325842040#10468#146#0(1@0"0(13@165"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_Panel_AccessibleAWTPanel.h]325842040#10614#165#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea.h]325842040#10779#149#0(1@0"0(13@171"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextArea_AccessibleAWTTextArea.h]325842040#10928#171#0(1@0"0(13@150"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField.h]325842040#11099#150#0(1@0"0(13@173"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_TextField_AccessibleAWTTextField.h]325842040#11249#173#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_ActionEvent.h]325842040#11422#158#0(1@0"0(13@160"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_awt_event_WindowAdapter.h]325842040#11580#160#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_IOException.h]325842040#11740#151#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_InputStream.h]325842040#11891#151#0(1@0"0(13@152"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_OutputStream.h]325842040#12042#152#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_PrintStream.h]325842040#12194#151#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_io_RandomAccessFile.h]325842040#12345#156#0(1@0"0(13@147"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class.h]325842040#12501#147#0(1@0"0(13@159"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_MethodArray.h]325842040#12648#159#0(1@0"0(13@167"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Class_EnclosingMethodInfo.h]325842040#12807#167#0(1@0"0(13@151"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Exception.h]325842040#12974#151#0(1@0"0(13@166"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IllegalArgumentException.h]325842040#13125#166#0(1@0"0(13@167"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_IndexOutOfBoundsException.h]325842040#13291#167#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer.h]325842040#13458#149#0(1@0"0(13@162"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Integer_IntegerCache.h]325842040#13607#162#0(1@0"0(13@146"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Math.h]325842040#13769#146#0(1@0"0(13@162"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_NullPointerException.h]325842040#13915#162#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Object.h]325842040#14077#148#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Runtime.h]325842040#14225#149#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String.h]325842040#14374#148#0(1@0"0(13@174"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_String_CaseInsensitiveComparator.h]325842040#14522#174#0(1@0"0(13@154"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_StringBuffer.h]325842040#14696#154#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_System.h]325842040#14850#148#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread.h]325842040#14998#148#0(1@0"0(13@173"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_UncaughtExceptionHandler.h]325842040#15146#173#0(1@0"0(13@154"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_lang_Thread_State.h]325842040#15319#154#0(1@0"0(13@153"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_EventObject.h]325842040#15473#153#0(1@0"0(13@149"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap.h]325842040#15626#149#0(1@0"0(13@158"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntrySet.h]325842040#15775#158#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Values.h]325842040#15933#156#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeySet.h]325842040#16089#156#0(1@0"0(13@163"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_EntryIterator.h]325842040#16245#163#0(1@0"0(13@161"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_KeyIterator.h]325842040#16408#161#0(1@0"0(13@163"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_ValueIterator.h]325842040#16569#163#0(1@0"0(13@162"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_HashIterator.h]325842040#16732#162#0(1@0"0(13@155"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_HashMap_Entry.h]325842040#16894#155#0(1@0"0(13@167"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_TooManyListenersException.h]325842040#17049#167#0(1@0"0(13@148"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_Vector.h]325842040#17216#148#0(1@0"0(13@156"[Creating file /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources/java_util_logging_Logger.h]325842040#17364#156#0(1@0"0(13@111"[search path for source files: /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar]325842040#17520#111#0(1@0"0(13@1808"[search path for class files: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar,/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar,/System/Library/Java/Extensions/AppleScriptEngine.jar,/System/Library/Java/Extensions/dns_sd.jar,/System/Library/Java/Extensions/j3daudio.jar,/System/Library/Java/Extensions/j3dcore.jar,/System/Library/Java/Extensions/j3dutils.jar,/System/Library/Java/Extensions/jai_codec.jar,/System/Library/Java/Extensions/jai_core.jar,/System/Library/Java/Extensions/mlibwrapper_jai.jar,/System/Library/Java/Extensions/MRJToolkit.jar,/System/Library/Java/Extensions/QTJava.zip,/System/Library/Java/Extensions/vecmath.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar,/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar,/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/RXTXcomm.jar]325842040#17631#1808#0(1@0"0(13@59"[loading gnu/io/CommDriver.class(gnu/io:CommDriver.class)]325842040#19439#59#0(1@0"0(13@55"[loading gnu/io/CommPort.class(gnu/io:CommPort.class)]325842040#19498#55#0(1@0"0(13@75"[loading gnu/io/CommPortEnumerator.class(gnu/io:CommPortEnumerator.class)]325842040#19553#75#0(1@0"0(13@75"[loading gnu/io/CommPortIdentifier.class(gnu/io:CommPortIdentifier.class)]325842040#19628#75#0(1@0"0(13@89"[loading gnu/io/CommPortOwnershipListener.class(gnu/io:CommPortOwnershipListener.class)]325842040#19703#89#0(1@0"0(13@57"[loading gnu/io/Configure.class(gnu/io:Configure.class)]325842040#19792#57#0(1@0"0(13@61"[loading gnu/io/Configure$1.class(gnu/io:Configure$1.class)]325842040#19849#61#0(1@0"0(13@61"[loading gnu/io/Configure$2.class(gnu/io:Configure$2.class)]325842040#19910#61#0(1@0"0(13@61"[loading gnu/io/Configure$3.class(gnu/io:Configure$3.class)]325842040#19971#61#0(1@0"0(13@61"[loading gnu/io/Configure$4.class(gnu/io:Configure$4.class)]325842040#20032#61#0(1@0"0(13@45"[loading gnu/io/I2C.class(gnu/io:I2C.class)]325842040#20093#45#0(1@0"0(13@75"[loading gnu/io/I2C$I2CInputStream.class(gnu/io:I2C$I2CInputStream.class)]325842040#20138#75#0(1@0"0(13@77"[loading gnu/io/I2C$I2COutputStream.class(gnu/io:I2C$I2COutputStream.class)]325842040#20213#77#0(1@0"0(13@73"[loading gnu/io/I2C$MonitorThread.class(gnu/io:I2C$MonitorThread.class)]325842040#20290#73#0(1@0"0(13@53"[loading gnu/io/I2CPort.class(gnu/io:I2CPort.class)]325842040#20363#53#0(1@0"0(13@63"[loading gnu/io/I2CPortEvent.class(gnu/io:I2CPortEvent.class)]325842040#20416#63#0(1@0"0(13@79"[loading gnu/io/I2CPortEventListener.class(gnu/io:I2CPortEventListener.class)]325842040#20479#79#0(1@0"0(13@53"[loading gnu/io/LPRPort.class(gnu/io:LPRPort.class)]325842040#20558#53#0(1@0"0(13@81"[loading gnu/io/LPRPort$MonitorThread.class(gnu/io:LPRPort$MonitorThread.class)]325842040#20611#81#0(1@0"0(13@93"[loading gnu/io/LPRPort$ParallelInputStream.class(gnu/io:LPRPort$ParallelInputStream.class)]325842040#20692#93#0(1@0"0(13@95"[loading gnu/io/LPRPort$ParallelOutputStream.class(gnu/io:LPRPort$ParallelOutputStream.class)]325842040#20785#95#0(1@0"0(13@77"[loading gnu/io/NoSuchPortException.class(gnu/io:NoSuchPortException.class)]325842040#20880#77#0(1@0"0(13@63"[loading gnu/io/ParallelPort.class(gnu/io:ParallelPort.class)]325842040#20957#63#0(1@0"0(13@73"[loading gnu/io/ParallelPortEvent.class(gnu/io:ParallelPortEvent.class)]325842040#21020#73#0(1@0"0(13@89"[loading gnu/io/ParallelPortEventListener.class(gnu/io:ParallelPortEventListener.class)]325842040#21093#89#0(1@0"0(13@75"[loading gnu/io/PortInUseException.class(gnu/io:PortInUseException.class)]325842040#21182#75#0(1@0"0(13@49"[loading gnu/io/RS485.class(gnu/io:RS485.class)]325842040#21257#49#0(1@0"0(13@77"[loading gnu/io/RS485$MonitorThread.class(gnu/io:RS485$MonitorThread.class)]325842040#21306#77#0(1@0"0(13@83"[loading gnu/io/RS485$RS485InputStream.class(gnu/io:RS485$RS485InputStream.class)]325842040#21383#83#0(1@0"0(13@85"[loading gnu/io/RS485$RS485OutputStream.class(gnu/io:RS485$RS485OutputStream.class)]325842040#21466#85#0(1@0"0(13@57"[loading gnu/io/RS485Port.class(gnu/io:RS485Port.class)]325842040#21551#57#0(1@0"0(13@67"[loading gnu/io/RS485PortEvent.class(gnu/io:RS485PortEvent.class)]325842040#21608#67#0(1@0"0(13@83"[loading gnu/io/RS485PortEventListener.class(gnu/io:RS485PortEventListener.class)]325842040#21675#83#0(1@0"0(13@67"[loading gnu/io/RXTXCommDriver.class(gnu/io:RXTXCommDriver.class)]325842040#21758#67#0(1@0"0(13@55"[loading gnu/io/RXTXPort.class(gnu/io:RXTXPort.class)]325842040#21825#55#0(1@0"0(13@83"[loading gnu/io/RXTXPort$MonitorThread.class(gnu/io:RXTXPort$MonitorThread.class)]325842040#21880#83#0(1@0"0(13@91"[loading gnu/io/RXTXPort$SerialInputStream.class(gnu/io:RXTXPort$SerialInputStream.class)]325842040#21963#91#0(1@0"0(13@93"[loading gnu/io/RXTXPort$SerialOutputStream.class(gnu/io:RXTXPort$SerialOutputStream.class)]325842040#22054#93#0(1@0"0(13@61"[loading gnu/io/RXTXVersion.class(gnu/io:RXTXVersion.class)]325842040#22147#61#0(1@0"0(13@45"[loading gnu/io/Raw.class(gnu/io:Raw.class)]325842040#22208#45#0(1@0"0(13@73"[loading gnu/io/Raw$MonitorThread.class(gnu/io:Raw$MonitorThread.class)]325842040#22253#73#0(1@0"0(13@75"[loading gnu/io/Raw$RawInputStream.class(gnu/io:Raw$RawInputStream.class)]325842040#22326#75#0(1@0"0(13@77"[loading gnu/io/Raw$RawOutputStream.class(gnu/io:Raw$RawOutputStream.class)]325842040#22401#77#0(1@0"0(13@53"[loading gnu/io/RawPort.class(gnu/io:RawPort.class)]325842040#22478#53#0(1@0"0(13@63"[loading gnu/io/RawPortEvent.class(gnu/io:RawPortEvent.class)]325842040#22531#63#0(1@0"0(13@79"[loading gnu/io/RawPortEventListener.class(gnu/io:RawPortEventListener.class)]325842040#22594#79#0(1@0"0(13@59"[loading gnu/io/SerialPort.class(gnu/io:SerialPort.class)]325842040#22673#59#0(1@0"0(13@69"[loading gnu/io/SerialPortEvent.class(gnu/io:SerialPortEvent.class)]325842040#22732#69#0(1@0"0(13@85"[loading gnu/io/SerialPortEventListener.class(gnu/io:SerialPortEventListener.class)]325842040#22801#85#0(1@0"0(13@91"[loading gnu/io/UnSupportedLoggerException.class(gnu/io:UnSupportedLoggerException.class)]325842040#22886#91#0(1@0"0(13@105"[loading gnu/io/UnsupportedCommOperationException.class(gnu/io:UnsupportedCommOperationException.class)]325842040#22977#105#0(1@0"0(13@51"[loading gnu/io/Zystem.class(gnu/io:Zystem.class)]325842040#23082#51#0(1@0"0(13@67"[loading java/awt/BorderLayout.class(java/awt:BorderLayout.class)]325842040#23133#67#0(1@0"0(13@55"[loading java/awt/Button.class(java/awt:Button.class)]325842040#23200#55#0(1@0"0(13@59"[loading java/awt/Checkbox.class(java/awt:Checkbox.class)]325842040#23255#59#0(1@0"0(13@53"[loading java/awt/Frame.class(java/awt:Frame.class)]325842040#23314#53#0(1@0"0(13@63"[loading java/awt/GridLayout.class(java/awt:GridLayout.class)]325842040#23367#63#0(1@0"0(13@53"[loading java/awt/Label.class(java/awt:Label.class)]325842040#23430#53#0(1@0"0(13@53"[loading java/awt/Panel.class(java/awt:Panel.class)]325842040#23483#53#0(1@0"0(13@59"[loading java/awt/TextArea.class(java/awt:TextArea.class)]325842040#23536#59#0(1@0"0(13@61"[loading java/awt/TextField.class(java/awt:TextField.class)]325842040#23595#61#0(1@0"0(13@77"[loading java/awt/event/ActionEvent.class(java/awt/event:ActionEvent.class)]325842040#23656#77#0(1@0"0(13@81"[loading java/awt/event/WindowAdapter.class(java/awt/event:WindowAdapter.class)]325842040#23733#81#0(1@0"0(13@63"[loading java/io/IOException.class(java/io:IOException.class)]325842040#23814#63#0(1@0"0(13@63"[loading java/io/InputStream.class(java/io:InputStream.class)]325842040#23877#63#0(1@0"0(13@65"[loading java/io/OutputStream.class(java/io:OutputStream.class)]325842040#23940#65#0(1@0"0(13@63"[loading java/io/PrintStream.class(java/io:PrintStream.class)]325842040#24005#63#0(1@0"0(13@73"[loading java/io/RandomAccessFile.class(java/io:RandomAccessFile.class)]325842040#24068#73#0(1@0"0(13@55"[loading java/lang/Class.class(java/lang:Class.class)]325842040#24141#55#0(1@0"0(13@63"[loading java/lang/Exception.class(java/lang:Exception.class)]325842040#24196#63#0(1@0"0(13@93"[loading java/lang/IllegalArgumentException.class(java/lang:IllegalArgumentException.class)]325842040#24259#93#0(1@0"0(13@95"[loading java/lang/IndexOutOfBoundsException.class(java/lang:IndexOutOfBoundsException.class)]325842040#24352#95#0(1@0"0(13@59"[loading java/lang/Integer.class(java/lang:Integer.class)]325842040#24447#59#0(1@0"0(13@53"[loading java/lang/Math.class(java/lang:Math.class)]325842040#24506#53#0(1@0"0(13@85"[loading java/lang/NullPointerException.class(java/lang:NullPointerException.class)]325842040#24559#85#0(1@0"0(13@57"[loading java/lang/Object.class(java/lang:Object.class)]325842040#24644#57#0(1@0"0(13@59"[loading java/lang/Runtime.class(java/lang:Runtime.class)]325842040#24701#59#0(1@0"0(13@57"[loading java/lang/String.class(java/lang:String.class)]325842040#24760#57#0(1@0"0(13@69"[loading java/lang/StringBuffer.class(java/lang:StringBuffer.class)]325842040#24817#69#0(1@0"0(13@57"[loading java/lang/System.class(java/lang:System.class)]325842040#24886#57#0(1@0"0(13@57"[loading java/lang/Thread.class(java/lang:Thread.class)]325842040#24943#57#0(1@0"0(13@67"[loading java/util/EventObject.class(java/util:EventObject.class)]325842040#25000#67#0(1@0"0(13@59"[loading java/util/HashMap.class(java/util:HashMap.class)]325842040#25067#59#0(1@0"0(13@95"[loading java/util/TooManyListenersException.class(java/util:TooManyListenersException.class)]325842040#25126#95#0(1@0"0(13@57"[loading java/util/Vector.class(java/util:Vector.class)]325842040#25221#57#0(1@0"0(13@73"[loading java/util/logging/Logger.class(java/util/logging:Logger.class)]325842040#25278#73#0(1@0"0(13@95"[loading java/awt/Button$AccessibleAWTButton.class(java/awt:Button$AccessibleAWTButton.class)]325842040#25351#95#0(1@0"0(13@103"[loading java/awt/Checkbox$AccessibleAWTCheckbox.class(java/awt:Checkbox$AccessibleAWTCheckbox.class)]325842040#25446#103#0(1@0"0(13@91"[loading java/awt/Frame$AccessibleAWTFrame.class(java/awt:Frame$AccessibleAWTFrame.class)]325842040#25549#91#0(1@0"0(13@91"[loading java/awt/Label$AccessibleAWTLabel.class(java/awt:Label$AccessibleAWTLabel.class)]325842040#25640#91#0(1@0"0(13@91"[loading java/awt/Panel$AccessibleAWTPanel.class(java/awt:Panel$AccessibleAWTPanel.class)]325842040#25731#91#0(1@0"0(13@103"[loading java/awt/TextArea$AccessibleAWTTextArea.class(java/awt:TextArea$AccessibleAWTTextArea.class)]325842040#25822#103#0(1@0"0(13@107"[loading java/awt/TextField$AccessibleAWTTextField.class(java/awt:TextField$AccessibleAWTTextField.class)]325842040#25925#107#0(1@0"0(13@95"[loading java/lang/Class$EnclosingMethodInfo.class(java/lang:Class$EnclosingMethodInfo.class)]325842040#26032#95#0(1@0"0(13@79"[loading java/lang/Class$MethodArray.class(java/lang:Class$MethodArray.class)]325842040#26127#79#0(1@0"0(13@85"[loading java/lang/Integer$IntegerCache.class(java/lang:Integer$IntegerCache.class)]325842040#26206#85#0(1@0"0(13@109"[loading java/lang/String$CaseInsensitiveComparator.class(java/lang:String$CaseInsensitiveComparator.class)]325842040#26291#109#0(1@0"0(13@69"[loading java/lang/Thread$State.class(java/lang:Thread$State.class)]325842040#26400#69#0(1@0"0(13@107"[loading java/lang/Thread$UncaughtExceptionHandler.class(java/lang:Thread$UncaughtExceptionHandler.class)]325842040#26469#107#0(1@0"0(13@71"[loading java/util/HashMap$Entry.class(java/util:HashMap$Entry.class)]325842040#26576#71#0(1@0"0(13@85"[loading java/util/HashMap$HashIterator.class(java/util:HashMap$HashIterator.class)]325842040#26647#85#0(1@0"0(13@87"[loading java/util/HashMap$ValueIterator.class(java/util:HashMap$ValueIterator.class)]325842040#26732#87#0(1@0"0(13@83"[loading java/util/HashMap$KeyIterator.class(java/util:HashMap$KeyIterator.class)]325842040#26819#83#0(1@0"0(13@87"[loading java/util/HashMap$EntryIterator.class(java/util:HashMap$EntryIterator.class)]325842040#26902#87#0(1@0"0(13@73"[loading java/util/HashMap$KeySet.class(java/util:HashMap$KeySet.class)]325842040#26989#73#0(1@0"0(13@73"[loading java/util/HashMap$Values.class(java/util:HashMap$Values.class)]325842040#27062#73#0(1@0"0(13@77"[loading java/util/HashMap$EntrySet.class(java/util:HashMap$EntrySet.class)]325842040#27135#77#0(1@0"0(13@63"[loading java/lang/Throwable.class(java/lang:Throwable.class)]325842040#27212#63#0(1@0"0(13@55"[loading java/awt/Window.class(java/awt:Window.class)]325842040#27275#55#0(1@0"0(13@61"[loading java/awt/Container.class(java/awt:Container.class)]325842040#27330#61#0(1@0"0(13@61"[loading java/awt/Component.class(java/awt:Component.class)]325842040#27391#61#0(1@0"0(13@107"[loading java/awt/Component$AccessibleAWTComponent.class(java/awt:Component$AccessibleAWTComponent.class)]325842040#27452#107#0(1@0"0(13@99"[loading javax/accessibility/AccessibleContext.class(javax/accessibility:AccessibleContext.class)]325842040#27559#99#0(1@0"0(13@95"[loading java/awt/Window$AccessibleAWTWindow.class(java/awt:Window$AccessibleAWTWindow.class)]325842040#27658#95#0(1@0"0(13@107"[loading java/awt/Container$AccessibleAWTContainer.class(java/awt:Container$AccessibleAWTContainer.class)]325842040#27753#107#0(1@0"0(13@69"[loading java/awt/TextComponent.class(java/awt:TextComponent.class)]325842040#27860#69#0(1@0"0(13@123"[loading java/awt/TextComponent$AccessibleAWTTextComponent.class(java/awt:TextComponent$AccessibleAWTTextComponent.class)]325842040#27929#123#0(1@0"0(13@59"[loading java/awt/AWTEvent.class(java/awt:AWTEvent.class)]325842040#28052#59#0(1@0"0(13@77"[loading java/io/FilterOutputStream.class(java/io:FilterOutputStream.class)]325842040#28111#77#0(1@0"0(13@67"[loading java/lang/ClassLoader.class(java/lang:ClassLoader.class)]325842040#28188#67#0(1@0"0(13@85"[loading java/security/ProtectionDomain.class(java/security:ProtectionDomain.class)]325842040#28255#85#0(1@0"0(13@73"[loading sun/reflect/ConstantPool.class(sun/reflect:ConstantPool.class)]325842040#28340#73#0(1@0"0(13@71"[loading java/lang/reflect/Field.class(java/lang/reflect:Field.class)]325842040#28413#71#0(1@0"0(13@73"[loading java/lang/reflect/Method.class(java/lang/reflect:Method.class)]325842040#28484#73#0(1@0"0(13@83"[loading java/lang/reflect/Constructor.class(java/lang/reflect:Constructor.class)]325842040#28557#83#0(1@0"0(13@77"[loading java/lang/RuntimeException.class(java/lang:RuntimeException.class)]325842040#28640#77#0(1@0"0(13@57"[loading java/lang/Number.class(java/lang:Number.class)]325842040#28717#57#0(1@0"0(13@87"[loading java/lang/AbstractStringBuilder.class(java/lang:AbstractStringBuilder.class)]325842040#28774#87#0(1@0"0(13@65"[loading java/util/Properties.class(java/util:Properties.class)]325842040#28861#65#0(1@0"0(13@63"[loading java/util/Hashtable.class(java/util:Hashtable.class)]325842040#28926#63#0(1@0"0(13@65"[loading java/util/Dictionary.class(java/util:Dictionary.class)]325842040#28989#65#0(1@0"0(13@79"[loading java/lang/StackTraceElement.class(java/lang:StackTraceElement.class)]325842040#29054#79#0(1@0"0(13@53"[loading java/lang/Enum.class(java/lang:Enum.class)]325842040#29133#53#0(1@0"0(13@67"[loading java/util/AbstractMap.class(java/util:AbstractMap.class)]325842040#29186#67#0(1@0"0(13@67"[loading java/util/AbstractSet.class(java/util:AbstractSet.class)]325842040#29253#67#0(1@0"0(13@81"[loading java/util/AbstractCollection.class(java/util:AbstractCollection.class)]325842040#29320#81#0(1@0"0(13@69"[loading java/util/AbstractList.class(java/util:AbstractList.class)]325842040#29401#69#0(1@0"0(13@18"[done in 1400 ms]325842040#29470#18#0(1@0"0(0#0#0"8600240448#16042"    cd /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER michu    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build    setenv BUILD_ROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build    setenv BUILD_STYLE Default    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default    setenv CACHE_ROOT /var/folders/7t/7tqjcXaJHy0rxS+Fnl+vaU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/7t/7tqjcXaJHy0rxS+Fnl+vaU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/librxtxSerial.jnilib    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/7t/7tqjcXaJHy0rxS+Fnl+vaU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Default    setenv CONFIGURATION_BUILD_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default    setenv CONFIGURATION_TEMP_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/RXTX.dst    setenv DWARF_DSYM_FILE_NAME librxtxSerial.jnilib.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default    setenv DYLIB_COMPATIBILITY_VERSION 1    setenv DYLIB_CURRENT_VERSION 1    setenv DYLIB_INSTALL_NAME_BASE /usr/local/lib    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION jnilib    setenv EXECUTABLE_NAME librxtxSerial.jnilib    setenv EXECUTABLE_PATH librxtxSerial.jnilib    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .jnilib    setenv FILE_LIST "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/FixedFiles"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME librxtxSerial.jnilib    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/include /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/RXTX.dst/usr/local/lib    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER michu    setenv INSTALL_PATH /usr/local/lib    setenv INSTALL_ROOT /tmp/RXTX.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DYLIB_INSTALL_NAME /usr/local/lib/librxtxSerial.jnilib    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/rxtxSerial-LinkMap-normal-ppc.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/i386/rxtxSerial.LinkFileList"    setenv LINK_FILE_LIST_normal_ppc "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/ppc/rxtxSerial.LinkFileList"    setenv LINK_FILE_LIST_normal_x86_64 "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal/x86_64/rxtxSerial.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_dylib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Objects-normal"    setenv OBJROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.mach-o-dylib    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c    setenv PKGINFO_FILE_PATH "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME rxtxSerial    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.dynamic    setenv PROFILING_CODE NO    setenv PROJECT RXTX    setenv PROJECT_DERIVED_FILE_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/DerivedSources    setenv PROJECT_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv PROJECT_FILE_PATH /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/RXTX.xcodeproj    setenv PROJECT_NAME RXTX    setenv PROJECT_TEMP_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/ResourceManagerResources"    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/7t/7tqjcXaJHy0rxS+Fnl+vaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv SRCROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/SymbolRepositories"    setenv SYMROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME "Compile Native"    setenv TARGET_BUILD_DIR /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/Default    setenv TARGET_NAME "Compile Native"    setenv TARGET_TEMP_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build"    setenv TEMP_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build"    setenv TEMP_FILES_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build"    setenv TEMP_FILE_DIR "/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build"    setenv TEMP_ROOT /Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER michu    setenv USER_APPS_DIR /Users/michu/Applications    setenv USER_LIBRARY_DIR /Users/michu/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER michu    setenv VERSION_INFO_FILE rxtxSerial_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:rxtxSerial  PROJECT:RXTX-\""    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT macosx10.5    /bin/sh -c "\"/Users/michu/code/rxtx/rxtx-devel/MACOSX_IDE/Xcode3/build/RXTX.build/Default/Compile Native.build/Script-89D0F1360F394748007831A7.sh\""0#
+
