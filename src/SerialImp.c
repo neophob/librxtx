@@ -3908,10 +3908,9 @@ void report_serial_events( struct event_info_struct *eis )
 		if(!eis->eventflags[SPE_DATA_AVAILABLE] )
 		{
 			report_verbose("report_serial_events: ignoring DATA_AVAILABLE\n");
-/*
-			report(".");
-*/
-			usleep(2000);
+
+			//low latency patch here, sleep was 20000
+	     		usleep(2000);
 #if !defined(__sun__)
 	/* FIXME: No time to test on all OS's for production */
 			usleep(2000);
