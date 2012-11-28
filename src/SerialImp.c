@@ -1252,12 +1252,11 @@ void *drain_loop( void *arg )
 		}
 #if defined(__sun__)
 	/* FIXME: No time to test on all OS's for production */
-//		if (usleep(5000)) {
-		if (usleep(2000)) {
+		if (usleep(1000)) {
 			report("drain_loop:  received EINTR");
 		}
 #else
-		if (usleep(1000000)) {
+		if (usleep(10000)) {
 			report("drain_loop:  received EINTR");
 		}
 #endif /* __sun__ */
@@ -3910,10 +3909,10 @@ void report_serial_events( struct event_info_struct *eis )
 			report_verbose("report_serial_events: ignoring DATA_AVAILABLE\n");
 
 			//low latency patch here, sleep was 20000
-	     		usleep(2000);
+	     		usleep(1000);
 #if !defined(__sun__)
 	/* FIXME: No time to test on all OS's for production */
-			usleep(2000);
+			usleep(1000);
 #endif /* !__sun__ */
 			return;
 		}
@@ -3926,7 +3925,7 @@ void report_serial_events( struct event_info_struct *eis )
 #if !defined(__sun__)
 #endif /* !__sun__ */
 		}
-		usleep(2000);
+		usleep(1000);
 	}
 }
 
@@ -4126,7 +4125,7 @@ RXTXVersion.nativeGetVersion
 JNIEXPORT jstring JNICALL RXTXVersion(nativeGetVersion) (JNIEnv *env,
 	jclass jclazz )
 {
-	return (*env)->NewStringUTF( env, "RXTX-2.2pre4" );
+	return (*env)->NewStringUTF( env, "RXTX-2.2pre5" );
 }
 
 /*----------------------------------------------------------
