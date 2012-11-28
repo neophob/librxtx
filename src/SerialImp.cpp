@@ -119,9 +119,9 @@ JNIEXPORT void JNICALL RXTXPort(Initialize)(
 	)
 {
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.Initialize\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.Initialize\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 #ifndef WIN32
@@ -229,11 +229,11 @@ JNIEXPORT jint JNICALL RXTXPort(open)(
 	
 	
     // Open Debug Error log file
- //   fp = fopen("RXTXOut.log", "a");
- //   fprintf(fp, "inside RXTXPort.Open fd for BSerialPort is %i.\n",fd);
- //   fprintf(fp, "inside RXTXPort.Open devName for BSerialPort is %s.\n", devName);
- //   fprintf(fp, "inside RXTXPort.Open results of open is %i.\n", (int)results);
- //   fclose(fp);
+    fp = fopen("RXTXOut.log", "a");
+    fprintf(fp, "inside RXTXPort.Open fd for BSerialPort is %i.\n",fd);
+    fprintf(fp, "inside RXTXPort.Open devName for BSerialPort is %s.\n", devName);
+    fprintf(fp, "inside RXTXPort.Open results of open is %i.\n", (int)results);
+    fclose(fp);
     // Close Log File 
 	
 	return (jint)fd; // returning the "fd" (the index into array of BSerialPort pointers).
@@ -253,9 +253,9 @@ JNIEXPORT void JNICALL RXTXPort(nativeClose)( JNIEnv *env,
    int fd = get_java_var( env, jobj,"fd","I" );
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside nativeClose\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside nativeClose\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
    delete PortArray[fd];
@@ -295,12 +295,12 @@ JNIEXPORT void JNICALL RXTXPort(nativeSetSerialPortParams)(
    } 
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.nativeSetSerialPortParams\n");
- //  fprintf(fp, "speed = %i\n", speed);
- //  fprintf(fp, "fd = %i\n", fd);
- //  fprintf(fp, "RXTXPort:nativeSetSerialPortParams right before return\n");
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.nativeSetSerialPortParams\n");
+   fprintf(fp, "speed = %i\n", speed);
+   fprintf(fp, "fd = %i\n", fd);
+   fprintf(fp, "RXTXPort:nativeSetSerialPortParams right before return\n");
+   fclose(fp);
    ////////////////// Close Log File /////////////////////
    
    return;
@@ -320,9 +320,9 @@ data_rate translate_speed( JNIEnv *env, jint speed )
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside translate_speed\n"); 
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside translate_speed\n"); 
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -367,9 +367,9 @@ data_rate translate_speed( JNIEnv *env, jint speed )
 int translate_data_bits( JNIEnv *env, data_bits *dbits, jint dataBits )
 {
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside translate_data_bits\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside translate_data_bits\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
    switch( dataBits ) 
@@ -401,9 +401,9 @@ int translate_stop_bits( JNIEnv *env, stop_bits *sbits, jint stopBits )
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside translate_stop_bits\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside translate_stop_bits\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
    switch( stopBits ) 
@@ -434,9 +434,9 @@ int translate_stop_bits( JNIEnv *env, stop_bits *sbits, jint stopBits )
 int translate_parity( JNIEnv *env, parity_mode *parmode, jint parity )
 {
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside translate_parity\n");
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside translate_parity\n");
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
    switch( parity ) 
@@ -471,9 +471,9 @@ JNIEXPORT void JNICALL RXTXPort(writeByte)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.writeByte\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.writeByte\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 	unsigned char byte = (unsigned char)ji;
@@ -514,9 +514,9 @@ JNIEXPORT void JNICALL RXTXPort(writeArray)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.writeArray\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.writeArray\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -560,9 +560,9 @@ JNIEXPORT void JNICALL RXTXPort(drain)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside RXTXPort.drain\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.drain\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -592,9 +592,9 @@ JNIEXPORT void JNICALL RXTXPort(sendBreak)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.sendBreak\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.sendBreak\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -618,9 +618,9 @@ JNIEXPORT jint JNICALL RXTXPort(NativegetReceiveTimeout)(
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside RXTXPort.NativeReceiveTimeout\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.NativeReceiveTimeout\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -650,9 +650,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(NativeisReceiveTimeoutEnabled)(
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.NativeisReceiveTimeoutEnabled\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.NativeisReceiveTimeoutEnabled\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -683,9 +683,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isDSR)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.isDSR\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isDSR\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -720,9 +720,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isCD)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.isCD\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isCD\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -753,9 +753,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isCTS)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.isCTS\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isCTS\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -786,9 +786,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isRI)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.isRI\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isRI\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -820,9 +820,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isRTS)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-   //fp = fopen("RXTXOut.log", "a");
-   //fprintf(fp, "Brian is inside RXTXPort.isRTS\n"); // !!!
-   //fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isRTS\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -855,9 +855,9 @@ JNIEXPORT void JNICALL RXTXPort(setRTS)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-  // fp = fopen("RXTXOut.log", "a");
-  // fprintf(fp, "Brian is inside RXTXPort.setRTS\n"); // !!!
-  // fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.setRTS\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -891,9 +891,9 @@ JNIEXPORT void JNICALL RXTXPort(setDSR)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.setDSR\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.setDSR\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -925,9 +925,9 @@ JNIEXPORT jboolean JNICALL RXTXPort(isDTR)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside RXTXPort.isDTR\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.isDTR\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -959,9 +959,9 @@ JNIEXPORT void JNICALL RXTXPort(setDTR)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside RXTXPort.setDTR\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.setDTR\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1000,9 +1000,9 @@ int read_byte_array( int fd, unsigned char *buffer, int length, int timeout )
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside read_byte_array\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside read_byte_array\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1058,9 +1058,9 @@ JNIEXPORT void JNICALL RXTXPort(NativeEnableReceiveTimeoutThreshold)(
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside NativeEnableReceiveTimeoutThreshold\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside NativeEnableReceiveTimeoutThreshold\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1092,9 +1092,9 @@ JNIEXPORT jint JNICALL RXTXPort(readByte)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.readByte\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.readByte\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 //status_t SetTimeout(bigtime_t timeout)
@@ -1145,9 +1145,9 @@ JNIEXPORT jint JNICALL RXTXPort(readArray)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.readArray\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.readArray\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1200,9 +1200,9 @@ JNIEXPORT jint JNICALL RXTXPort(nativeavailable)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.nativeavailable\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.nativeavailable\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1245,9 +1245,9 @@ JNIEXPORT void JNICALL RXTXPort(setflowcontrol)( JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is inside RXTXPort.setflowcontrol\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.setflowcontrol\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
    int fd = get_java_var( env, jobj,"fd","I" );
@@ -1345,9 +1345,9 @@ JNIEXPORT void JNICALL RXTXPort(eventLoop)( JNIEnv *env, jobject jobj )
 #else /*  __BEOS__ */
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside RXTXPort.eventLoop\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside RXTXPort.eventLoop\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1469,7 +1469,7 @@ JNIEXPORT void JNICALL RXTXPort(eventLoop)( JNIEnv *env, jobject jobj )
 		ioctl( fd, FIONREAD, &change );
 		if( change ) {
 			if(!send_event( env, jobj, SPE_DATA_AVAILABLE, 1 ))
-				usleep(10000); /* select wont block */
+				usleep(100000); /* select wont block */
 		}
 	}
 	return;
@@ -1490,9 +1490,9 @@ JNIEXPORT jboolean  JNICALL RXTXCommDriver(isDeviceGood)(JNIEnv *env,
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside isDeviceGood\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside isDeviceGood\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1645,9 +1645,9 @@ jboolean is_interrupted(JNIEnv *env, jobject jobj)
 {
 
    ////////////////// Open Log File /////////////////////
-//   fp = fopen("RXTXOut.log", "a");
-//   fprintf(fp, "Brian is is_interrupted\n"); // !!!
-//   fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is is_interrupted\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1697,9 +1697,9 @@ int send_event(JNIEnv *env, jobject jobj, jint type, int flag)
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside send_event\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside send_event\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1747,9 +1747,9 @@ int get_java_var( JNIEnv *env, jobject jobj, char *id, char *type )
 
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside get_java_var\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside get_java_var\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 	int result = 0;
@@ -1793,10 +1793,10 @@ void throw_java_exception( JNIEnv *env, char *exc, char *foo, char *msg )
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside throw_java_exception\n\n"); // !!!
- //  fprintf(fp, "%s in %s\n", msg, foo ); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside throw_java_exception\n\n"); // !!!
+   fprintf(fp, "%s in %s\n", msg, foo ); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1835,9 +1835,9 @@ void report(char *msg)
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside report\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside report\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 
@@ -1860,9 +1860,9 @@ void dump_termios(char *foo,struct termios *ttyset)
 {
 
    ////////////////// Open Log File /////////////////////
- //  fp = fopen("RXTXOut.log", "a");
- //  fprintf(fp, "Brian is inside dump_termios\n"); // !!!
- //  fclose(fp);
+   fp = fopen("RXTXOut.log", "a");
+   fprintf(fp, "Brian is inside dump_termios\n"); // !!!
+   fclose(fp);
    ////////////////// Close Log File ////////////////////
 
 

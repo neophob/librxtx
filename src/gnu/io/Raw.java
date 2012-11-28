@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------------
 |   RXTX License v 2.1 - LGPL v 2.1 + Linking Over Controlled Interface.
 |   RXTX is a native interface to serial ports in java.
-|   Copyright 1997-2007 by Trent Jarvi tjarvi@qbang.org and others who
+|   Copyright 1997-2012 by Trent Jarvi tjarvi@qbang.org and others who
 |   actually wrote it.  See individual source files for more information.
 |
 |   A copy of the LGPL v 2.1 may be found at
@@ -63,7 +63,7 @@ import java.lang.Math;
 
 /**
 * @author Trent Jarvi
-* @version $Id: Raw.java,v 1.1.2.18 2010/01/03 23:15:25 jarvi Exp $
+* @version $Id: Raw.java,v 1.1.2.19 2012/06/04 21:39:05 jarvi Exp $
 * @since JDK1.0
 */
 
@@ -467,14 +467,16 @@ final class Raw  extends  RawPort {
 		private boolean BI=false;
 		private boolean Data=false;
 		private boolean Output=false;
-		MonitorThread() { }
+		MonitorThread() {
+			setDaemon(true);
+		}
 		public void run() {
 			eventLoop();
 		}
 	}
 	public String getVersion()
 	{
-		String Version="$Id: Raw.java,v 1.1.2.18 2010/01/03 23:15:25 jarvi Exp $";
+		String Version="$Id: Raw.java,v 1.1.2.19 2012/06/04 21:39:05 jarvi Exp $";
 		return(Version);
 	}
 }

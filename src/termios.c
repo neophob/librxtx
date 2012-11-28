@@ -1236,15 +1236,7 @@ int serial_open( const char *filename, int flags, ... )
 	init_serial_struct( index->sstruct );
 
 	/* set default condition */
-	//http://bugzilla.qbang.org/show_bug.cgi?id=153
-	if ( tcsetattr( index->fd, 0, index->ttyset ) )
-	{
-		sprintf( message, "serial_open():  Could not set port attributes for %s\n",
-			filename );
-		report( message );
-		serial_close( index->fd );
-		return -1;
-	}
+	tcsetattr( index->fd, 0, index->ttyset );
 
 	/* if opened with non-blocking, then operating non-blocking */
 	if ( flags & O_NONBLOCK )
@@ -3215,7 +3207,7 @@ int  serial_select( int  n,  fd_set  *readfds,  fd_set  *writefds,
 	}
 end:
 	/*  You may want to chop this out for lower latency */
-//	usleep(1000);
+	usleep(1000);
 	LEAVE( "serial_select" );
 	return( 1 );
 timeout:

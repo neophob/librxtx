@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------------
 |   RXTX License v 2.1 - LGPL v 2.1 + Linking Over Controlled Interface.
 |   RXTX is a native interface to serial ports in java.
-|   Copyright 1997-2009 by Trent Jarvi tjarvi@qbang.org and others who
+|   Copyright 1997-2012 by Trent Jarvi tjarvi@qbang.org and others who
 |   actually wrote it.  See individual source files for more information.
 |
 |   A copy of the LGPL v 2.1 may be found at
@@ -148,7 +148,7 @@ struct event_info_struct
 };
 
 /*  Ports known on the OS */
-#if defined(__linux__)
+#if defined(__linux__) || defined(__FreeBSD_kernel__) || defined(__GNU__)
 /*
 	This is a small hack to get mark and space parity working on older systems
 	https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=147533
@@ -156,7 +156,6 @@ struct event_info_struct
 #	if !defined(CMSPAR)
 #		define CMSPAR 010000000000
 #	endif /* CMSPAR */
-#	
 #	define DEVICEDIR "/dev/"
 #	define LOCKDIR "/var/lock"
 #	define LOCKFILEPREFIX "LCK.."
@@ -467,15 +466,22 @@ int translate_parity( JNIEnv *, tcflag_t *, jint );
 void system_wait();
 void finalize_event_info_struct( struct event_info_struct * );
 int read_byte_array( JNIEnv *, jobject *, int, unsigned char *, int, int );
-long get_java_var_long( JNIEnv *, jobject, char *, char * );
-size_t get_java_var( JNIEnv *, jobject, char *, char * );
+
+jint get_java_var_int( JNIEnv *env, jobject jobj, char *id );
+jint get_java_var_pid( JNIEnv *env, jobject jobj );
+jint get_java_var_fd( JNIEnv *env, jobject jobj );
+jint get_java_var_timeout( JNIEnv *env, jobject jobj );
+jlong get_java_var_long( JNIEnv *env, jobject jobj, char *id );
+struct event_info_struct * get_java_var_eis( JNIEnv *env, jobject jobj );
+void set_java_var_eis( JNIEnv *env, jclass jclazz, jobject jobj, struct event_info_struct *eis );
+
 jboolean is_interrupted( struct event_info_struct * );
 int send_event(struct event_info_struct *, jint, int );
 void dump_termios(char *,struct termios *);
-void report_verbose(char *);
-void report_error(char *);
-void report_warning(char *);
-void report(char *);
+void report_verbose(const char *);
+void report_error(const char *);
+void report_warning(const char *);
+void report(const char *);
 void throw_java_exception( JNIEnv *, char *, char *, char * );
 int lock_device( const char * );
 void unlock_device( const char * );
@@ -486,10 +492,10 @@ int lfs_lock( const char *, int);
 int lib_lock_dev_unlock(const char *, int );
 int lib_lock_dev_lock( const char *, int);
 void fhs_unlock(const char *, int );
-int fhs_lock( const char *, int);
+int fhs_lock( const char *, pid_t);
 void uucp_unlock( const char *, int );
-int uucp_lock( const char *, int );
-int system_does_not_lock( const char *, int );
+int uucp_lock( const char *, pid_t );
+int system_does_not_lock( const char *, pid_t );
 void system_does_not_unlock( const char *, int );
 int check_group_uucp();
 int check_lock_pid( const char *, int );
